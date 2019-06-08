@@ -5,10 +5,17 @@ root = true
 charset = utf-8
 indent_style = space
 indent_size = 2
+<<<<<<< HEAD
 end_of_line = lf
+=======
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
 insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.md]
+<<<<<<< HEAD
 max_line_length = 0
+=======
+max_line_length = off
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
 trim_trailing_whitespace = false

@@ -1,0 +1,26 @@
+.product-widget .product-body .product-name {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.product-widget .product-body {
+    padding-left: 110px;
+    min-height: 75px;
+}
+
+.product-widget .product-img {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    width: 100px;
+}
+
+.product-widget .product-body .product-category {
+    font-size: 12px;
+}
+
+element.style {
+    border: 2px solid #D0CBC0;
+    border-radius: 5px;
+    padding: 10px;
+}

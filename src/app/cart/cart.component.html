@@ -1,0 +1,147 @@
+<router-outlet>
+    <app-header></app-header>
+  </router-outlet>
+  <!-- SECTION -->
+  
+  
+  <!-- SECTION -->
+  <div class="section" style="padding-top: 10px; padding-bottom: 0px;">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+  
+        <!-- section title -->
+        <div style="margin-top:10px" class="col-md-12">
+          <div class="col-xs-8">
+              <div class="section-title" class="margin-bottom: 10px; margin-top:10px;">
+                  <h2 class="title"> <i class="fa fa-shopping-cart"> </i> My Cart</h2>
+                </div>
+          </div>
+          <div class="product-details">
+              <div class="add-to-cart">
+                  <button [routerLink]="['../checkout']" class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Checkout now</button>
+                </div>
+            </div>
+        </div>
+        <!-- /section title -->
+  
+        
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /SECTION -->
+  
+  
+  <!-- SECTION -->
+  <div class="section" style="padding-top: 0px; padding-bottom: 0px;">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <div class="section-title">
+            <h4 class="">3 Items in Cart </h4> 
+              
+            
+            <div class="section-nav">
+              <div id="slick-nav-3" class="products-slick-nav"></div>
+            </div>
+          </div>
+  
+          <div class="products-widget-slick" data-nav="#slick-nav-3">
+            <div>
+              <!-- product widget -->
+              <div class="product-widget" style="border: 2px solid #D0CBC0;border-radius: 5px; padding: 10px;">
+                <div class="product-img">
+                  <img src="assets/img/product07.png" alt="">
+                </div>
+                <div class="product-body">
+                  <p class="product-category">Category</p>
+                  <h3 class="product-name"><a [routerLink]="['../productview']">product name goes here</a></h3>
+                <div class="col-md-12">
+                  <div class="col-md-8">
+                      <h4 class="product-price">Rs.980.00 <del class="product-old-price">Rs.990.00</del></h4>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="product-details">
+                          <div class="add-to-cart">
+                              <button [routerLink]="['../checkout']" class="add-to-cart-btn" style="font-size: 12px; height: 30px; text-transform: none;"><i style="width: 60px;  height: 60px; line-height: 26px;" class="fa fa-trash"></i> Remove Item</button>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+                  
+                  
+                </div>
+              </div>
+              <!-- /product widget -->
+  
+              <!-- product widget -->
+              <div class="product-widget" style="border: 2px solid #D0CBC0;border-radius: 5px; padding: 10px;">
+                <div class="product-img">
+                  <img src="assets/img/product08.png" alt="">
+                </div>
+                <div class="product-body">
+                  <p class="product-category">Category</p>
+                  <h3 class="product-name"><a [routerLink]="['../productview']">product name goes here</a></h3>
+                  <div class="col-md-12">
+                      <div class="col-md-8">
+                          <h4 class="product-price">Rs.980.00 <del class="product-old-price">Rs.990.00</del></h4>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="product-details">
+                              <div class="add-to-cart">
+                                  <button [routerLink]="['../checkout']" class="add-to-cart-btn" style="font-size: 12px; height: 30px; text-transform: none;"><i style="width: 60px;  height: 60px; line-height: 26px;" class="fa fa-trash"></i> Remove Item</button>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /product widget -->
+  
+              <!-- product widget -->
+              <div class="product-widget" style="border: 2px solid #D0CBC0;border-radius: 5px; padding: 10px;">
+                <div class="product-img">
+                  <img src="assets/img/product09.png" alt="">
+                </div>
+                <div class="product-body">
+                  <p class="product-category">Category</p>
+                  <h3 class="product-name"><a [routerLink]="['../productview']">product name goes here</a></h3>
+                  <div class="col-md-12">
+                      <div class="col-md-8">
+                          <h4 class="product-price">Rs.980.00 <del class="product-old-price">Rs.990.00</del></h4>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="product-details">
+                              <div class="add-to-cart">
+                                  <button [routerLink]="['../checkout']" class="add-to-cart-btn" style="font-size: 12px; height: 30px; text-transform: none;"><i style="width: 60px;  height: 60px; line-height: 26px;" class="fa fa-trash"></i> Remove Item</button>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- product widget -->
+            </div>
+  
+            
+          </div>
+        </div>
+  
+
+  
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /SECTION -->
+  <router-outlet>
+    <app-footer></app-footer>
+  </router-outlet>
+  
+  

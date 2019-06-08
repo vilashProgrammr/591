@@ -3,20 +3,44 @@
     "node_modules/codelyzer"
   ],
   "rules": {
+<<<<<<< HEAD
+=======
+    "arrow-return-shorthand": true,
+    "callable-types": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "class-name": true,
     "comment-format": [
       true,
       "check-space"
     ],
     "curly": true,
+<<<<<<< HEAD
     "eofline": true,
     "forin": true,
+=======
+    "deprecation": {
+      "severity": "warn"
+    },
+    "eofline": true,
+    "forin": true,
+    "import-blacklist": [
+      true,
+      "rxjs",
+      "rxjs/Rx"
+    ],
+    "import-spacing": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "indent": [
       true,
       "spaces"
     ],
+<<<<<<< HEAD
     "label-position": true,
     "label-undefined": true,
+=======
+    "interface-over-type-literal": true,
+    "label-position": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "max-line-length": [
       true,
       140
@@ -24,8 +48,19 @@
     "member-access": false,
     "member-ordering": [
       true,
+<<<<<<< HEAD
       "static-before-instance",
       "variables-before-functions"
+=======
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     ],
     "no-arg": true,
     "no-bitwise": true,
@@ -39,6 +74,7 @@
     ],
     "no-construct": true,
     "no-debugger": true,
+<<<<<<< HEAD
     "no-duplicate-key": true,
     "no-duplicate-variable": true,
     "no-empty": false,
@@ -51,6 +87,25 @@
     "no-unused-expression": true,
     "no-unused-variable": true,
     "no-unreachable": true,
+=======
+    "no-duplicate-super": true,
+    "no-empty": false,
+    "no-empty-interface": true,
+    "no-eval": true,
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-misused-new": true,
+    "no-non-null-assertion": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+    "no-unnecessary-initializer": true,
+    "no-unused-expression": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "object-literal-sort-keys": false,
@@ -61,12 +116,20 @@
       "check-else",
       "check-whitespace"
     ],
+<<<<<<< HEAD
+=======
+    "prefer-const": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "quotemark": [
       true,
       "single"
     ],
     "radix": true,
     "semicolon": [
+<<<<<<< HEAD
+=======
+      true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
       "always"
     ],
     "triple-equals": [
@@ -83,6 +146,10 @@
         "variable-declaration": "nospace"
       }
     ],
+<<<<<<< HEAD
+=======
+    "unified-signatures": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "variable-name": false,
     "whitespace": [
       true,
@@ -92,11 +159,27 @@
       "check-separator",
       "check-type"
     ],
+<<<<<<< HEAD
 
     "directive-selector-name": [true, "camelCase"],
     "component-selector-name": [true, "kebab-case"],
     "directive-selector-type": [true, "attribute"],
     "component-selector-type": [true, "element"],
+=======
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "no-output-on-prefix": true,
+>>>>>>> 86737a996bc38f6dedf8b1ccf754d2dbcbdc7630
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
